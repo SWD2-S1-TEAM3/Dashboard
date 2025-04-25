@@ -1,13 +1,18 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import SideBar from "../SideBar/SideBar";
 
 function Layout() {
   return (
     <>
-      <Navbar />
-      <Outlet></Outlet>
+      <div>
+        <SideBar />
+        <div style={{ marginLeft: "220px", padding: "1rem" }}>
+          <Outlet></Outlet>
+        </div>
+      </div>
+
       <Footer />
     </>
   );
