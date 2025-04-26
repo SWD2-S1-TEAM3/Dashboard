@@ -1,12 +1,30 @@
 import React from "react";
-import "./MainDashboard.css";
+import { useLocation } from "react-router-dom";
 
 function Header() {
+  const location = useLocation();
+
+  let headerContent;
+  switch (location.pathname) {
+    case "/":
+      headerContent = "Main Dashboard";
+      break;
+    case "/NFTMarketplace":
+      headerContent = "NFT Marketplace";
+      break;
+    case "/DataTables":
+      headerContent = "Data Tables";
+      break;
+    case "/Profile":
+      headerContent = "Profile";
+      break;
+  }
   return (
     <>
       <div className="d-flex justify-content-between mt-3 mx-3">
         <div>
-          <h1>Main Dashboard</h1>
+          <p>Pages / {headerContent}</p>
+          <h1>{headerContent}</h1>
         </div>
         <div className="topbar d-flex">
           <div className="search-container">

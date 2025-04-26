@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./header";
 import Section1 from "./EarningsCard";
 import CheckTable from "./CheckboxTable";
 import Line from "./Line";
@@ -13,7 +12,6 @@ import TaskList from "./TaskList";
 function MainDashboard() {
   return (
     <div className="body">
-      <Header />
       <Section1 />
       <div className="container-fluid">
         <div className="row">
