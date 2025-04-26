@@ -6,7 +6,7 @@ import SideBar from "../SideBar/SideBar";
 function Layout() {
   return (
     <>
-      <div>
+      <div className="bg-light">
         <SideBar />
         <div style={{ marginLeft: "220px", padding: "1rem" }}>
           <Outlet></Outlet>

@@ -8,7 +8,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i class="fa-solid fa-chart-simple"></i>
+              <i className="fa-solid fa-chart-simple"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">Earnings</span>
@@ -19,7 +19,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i class="fa-solid fa-file"></i>
+              <i className="fa-solid fa-file"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">Spend this month</span>
@@ -30,7 +30,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i class="fa-solid fa-chart-simple"></i>
+              <i className="fa-solid fa-chart-simple"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">Sales</span>
@@ -52,7 +52,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i class="fa-solid fa-chart-simple"></i>
+              <i className="fa-solid fa-chart-simple"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">New Tasks</span>
@@ -63,7 +63,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i class="fa-solid fa-house"></i>
+              <i className="fa-solid fa-house"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">Total Projects</span>

@@ -3,3 +3,13 @@
 * {
   font-family: "Work Sans", sans-serif;
 }
+
+.Line,
+.StackedBarChart,
+.Chart,
+.SimpleBarChart,
+.TaskList,
+.BasicDateCalendar {
+  background-color: #fff;
+  border-radius: 1rem;
+}
