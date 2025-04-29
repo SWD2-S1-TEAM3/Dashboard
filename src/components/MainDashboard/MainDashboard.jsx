@@ -1,5 +1,4 @@
 import React from "react";
-import Section1 from "./EarningsCard";
 import CheckTable from "./CheckboxTable";
 import Line from "./Line";
 import StackedBarChart from "./StackedBarChart";
@@ -8,11 +7,12 @@ import SimpleBarChart from "./SimpleBarChart";
 import ComplexTable from "./ComplexTable";
 import BasicDateCalendar from "./BasicDateCalendar";
 import TaskList from "./TaskList";
+import EarningsCard from "./EarningsCard";
 
 function MainDashboard() {
   return (
     <div className="body">
-      <Section1 />
+      <EarningsCard />
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 col-md-12">
