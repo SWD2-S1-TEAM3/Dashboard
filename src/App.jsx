@@ -4,7 +4,7 @@ import MainDashboard from "./components/MainDashboard/MainDashboard";
 import NFTMarketplace from "./components/NFTMarketplace/NFTMarketplace";
 import DataTables from "./components/DataTables/DataTables";
 import Profile from "./components/Profile/Profile";
-import SignIn from "./components/SignIn/signIn";
+import SignIn from "./components/SignIn/SignIn";
 import Layout from "./components/Layout/Layout";
 import Notfound from "./components/Notfound/Notfound";
 
@@ -19,10 +19,10 @@ function App() {
         { path: "MainDashboard", element: <MainDashboard /> },
         { path: "NFTMarketplace", element: <NFTMarketplace /> },
         { path: "Profile", element: <Profile /> },
-        { path: "SignIn", element: <SignIn /> },
         { path: "*", element: <Notfound /> },
       ],
     },
+    { path: "SignIn", element: <SignIn /> },
   ]);
 
   return (
