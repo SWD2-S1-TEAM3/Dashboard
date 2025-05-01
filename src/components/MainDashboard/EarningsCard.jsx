@@ -8,7 +8,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i className="fa-solid fa-chart-simple"></i>
+              <i className="fa-solid fa-chart-simple fa-2x"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">Earnings</span>
@@ -19,7 +19,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i className="fa-solid fa-file"></i>
+              <i className="fa-solid fa-file fa-2x"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">Spend this month</span>
@@ -30,7 +30,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i className="fa-solid fa-chart-simple"></i>
+              <i className="fa-solid fa-chart-simple fa-2x"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">Sales</span>
@@ -41,7 +41,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i className="fa-solid fa-chart-column"></i>
+              <i className="fa-solid fa-chart-column fa-2x"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">Your Balance</span>
@@ -52,7 +52,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i className="fa-solid fa-chart-simple"></i>
+              <i className="fa-solid fa-chart-simple fa-2x"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">New Tasks</span>
@@ -63,7 +63,7 @@ function EarningsCard() {
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
-              <i className="fa-solid fa-house"></i>
+              <i className="fa-solid fa-house fa-2x"></i>
             </div>
             <div className="earnings-info">
               <span className="earnings-label">Total Projects</span>

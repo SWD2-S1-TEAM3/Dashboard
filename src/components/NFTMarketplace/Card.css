@@ -1,0 +1,92 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url(../../assets/Card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 40px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-content {
+  z-index: 2;
+}
+
+.card-content h2 {
+  font-size: 2rem;
+  margin: 0 0 16px 0;
+  font-weight: 700;
+  color: #fff;
+}
+
+.card-content p {
+  margin-bottom: 28px;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+}
+
+.card-buttons {
+  display: flex;
+  margin-top: 80px;
+  gap: 24px;
+}
+
+.primary-btn {
+  background: #fff;
+  color: #4f2ffb;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.primary-btn:hover {
+  background: #e6e6ff;
+}
+
+.secondary-btn {
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 10px 0;
+}
+
+.card-graphics {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 18px;
+  z-index: 1;
+}
+
+.hat {
+  width: 140px;
+  margin-bottom: -20px;
+}
+
+.plane {
+  width: 110px;
+  margin-bottom: -10px;
+}
+
+.trophy {
+  width: 90px;
+  margin-top: 30px;
+}
