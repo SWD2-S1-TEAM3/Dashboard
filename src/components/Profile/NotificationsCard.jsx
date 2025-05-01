@@ -14,12 +14,12 @@ const notificationsList = [
 ];
 
 function NotificationsCard() {
-  const [toggles, setToggles] = useState(Array(notificationsList.length).fill(false));
+  const [toggles, setToggles] = useState(
+    Array(notificationsList.length).fill(false)
+  );
 
   const handleToggle = (idx) => {
-    setToggles((prev) =>
-      prev.map((val, i) => (i === idx ? !val : val))
-    );
+    setToggles((prev) => prev.map((val, i) => (i === idx ? !val : val)));
   };
 
   return (
@@ -28,9 +28,9 @@ function NotificationsCard() {
         <span className="notifications-title">Notifications</span>
         <button className="notifications-menu-btn" title="More options">
           <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
-            <circle cx="5" cy="12" r="2" fill="#b0b8e8"/>
-            <circle cx="12" cy="12" r="2" fill="#b0b8e8"/>
-            <circle cx="19" cy="12" r="2" fill="#b0b8e8"/>
+            <circle cx="5" cy="12" r="2" fill="#b0b8e8" />
+            <circle cx="12" cy="12" r="2" fill="#b0b8e8" />
+            <circle cx="19" cy="12" r="2" fill="#b0b8e8" />
           </svg>
         </button>
       </div>

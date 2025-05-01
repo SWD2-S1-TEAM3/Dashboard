@@ -59,7 +59,7 @@ function HistoryCard() {
         <span className="history-title">History</span>
         <a
           href="#"
-          className="history-seeall bg-light rounded rounded-5 px-3 py-2 text-decoration-none"
+          className="history-seeall rounded rounded-5 px-3 py-2 text-decoration-none"
         >
           See all
         </a>

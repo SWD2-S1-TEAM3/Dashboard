@@ -28,7 +28,7 @@ function StorageCard() {
             Supervise your drive space in the easiest way
           </p>
         </div>
-        <div className="mt-5">
+        <div className="mt-5 bar">
           <div className="storage-info">
             <span className="used-storage">{usedStorage} GB</span>
             <span className="total-storage">{totalStorage} GB</span>

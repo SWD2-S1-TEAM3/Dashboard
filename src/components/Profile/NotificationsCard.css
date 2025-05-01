@@ -1,5 +1,5 @@
 .notifications-card {
-  background: #fff;
+  background: var(--container);
   border-radius: 18px;
   box-shadow: 0 2px 16px rgba(80, 112, 225, 0.06);
   padding: 28px 24px 24px 24px;
@@ -17,7 +17,7 @@
 .notifications-title {
   font-size: 18px;
   font-weight: 600;
-  color: #422afb;
+  color: var(--text);
 }
 
 .notifications-menu-btn {
@@ -30,7 +30,7 @@
 }
 
 .notifications-menu-btn:hover {
-  background: #e9eefc;
+  background: var(--icon-container);
 }
 
 .notifications-list {
@@ -47,11 +47,10 @@
 
 .notifications-label {
   font-size: 15px;
-  color: #222a54;
+  color: var(--text);
   margin-left: 14px;
 }
 
-/* Toggle Switch Styles */
 .notifications-switch {
   position: relative;
   display: inline-block;
@@ -72,7 +71,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #e1e7fd;
+  background-color: var(--body-bg);
   border-radius: 22px;
   transition: background 0.2s;
 }
@@ -91,7 +90,7 @@
 }
 
 .notifications-switch input:checked + .slider {
-  background-color: #422afb;
+  background-color: var(--checkbox);
 }
 
 .notifications-switch input:checked + .slider:before {

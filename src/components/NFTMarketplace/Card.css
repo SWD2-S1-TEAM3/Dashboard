@@ -1,13 +1,11 @@
 .card {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   background-image: url(../../assets/Card.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
   padding: 40px;
-  color: #fff;
   position: relative;
   overflow: hidden;
   min-height: 300px;

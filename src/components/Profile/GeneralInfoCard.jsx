@@ -23,7 +23,7 @@ function GeneralInfoCard() {
       </p>
       <div className="general-info-grid">
         {generalInfo.map((item, idx) => (
-          <div className="general-info-item border shadow" key={idx}>
+          <div className="general-info-item" key={idx}>
             <div className="general-info-label">{item.label}</div>
             <div className="general-info-value">{item.value}</div>
           </div>

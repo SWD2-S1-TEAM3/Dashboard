@@ -7,10 +7,7 @@ function UploadCard() {
       <div className="upload-box">
         <label htmlFor="file-upload" className="upload-label">
           <div className="upload-icon">
-            <i
-              className="fa-solid fa-upload"
-              style={{ color: "#422AFB", fontSize: "40px" }}
-            ></i>
+            <i className="fa-solid fa-upload"></i>
           </div>
           <div className="upload-text">Upload Files</div>
           <div className="upload-subtext">

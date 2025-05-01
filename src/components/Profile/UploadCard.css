@@ -1,6 +1,6 @@
 .upload-card-container {
   display: flex;
-  background: #fff;
+  background: var(--container);
   border-radius: 18px;
   box-shadow: 0 2px 16px rgba(80, 112, 225, 0.06);
   padding: 10px;
@@ -10,12 +10,12 @@
 
 .upload-box {
   flex: 1;
-  background: #f5f7ff;
+  background: var(--icon-container);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #f0f1fa;
+  border: 2px solid var(--icon-container);
   transition: border 0.2s;
 }
 
@@ -32,6 +32,8 @@
 
 .upload-icon {
   margin-bottom: 12px;
+  color: var(--icon);
+  font-size: 5rem;
 }
 
 .upload-text {
@@ -42,7 +44,7 @@
 }
 
 .upload-subtext {
-  color: #b0b8e8;
+  color: var(--text);
   font-size: 13px;
 }
 
@@ -55,7 +57,7 @@
 }
 
 .profile-title {
-  color: #222a54;
+  color: var(--text);
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -68,7 +70,7 @@
 }
 
 .publish-btn {
-  background: #4f46e5;
+  background: var(--checkbox);
   color: #fff;
   border: none;
   border-radius: 8px;

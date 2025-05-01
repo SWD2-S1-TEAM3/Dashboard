@@ -7,7 +7,7 @@ export default function BasicDateCalendar() {
   return (
     <div className="BasicDateCalendar p-3 w-100 h-100">
       <LocalizationProvider dateAdapter={AdapterDayjs}>
-        <DateCalendar />
+        <DateCalendar className="BasicDateCalendar" />
       </LocalizationProvider>
     </div>
   );

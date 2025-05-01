@@ -15,18 +15,20 @@
 .tableWrapper {
   flex: 1;
   min-width: 300px;
-  background-color: rgb(255 255 255 );
+  background-color: var(--container);
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tableWrapper h2 {
+  color: var(--text);
 }
 
 .table {
   width: 100%;
   border-collapse: collapse;
 }
-
-
 
 .table th,
 .table td {
@@ -37,18 +39,16 @@
 
 .table th {
   font-weight: 600;
-  color: rgb(163 174 208);
+  color: var(--text);
 }
-
-
 
 .icons span {
   margin-right: 8px;
   font-size: 18px;
-  color: rgb(163 174 208);
+  color: var(--text);
 }
 
-tbody td{
+tbody td {
   font-weight: 700;
 }
 
@@ -61,7 +61,7 @@ tbody td{
 .tableWrapper {
   flex: 1;
   min-width: 300px;
-  
+
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -79,16 +79,17 @@ tbody td{
   padding: 0.75rem 1rem;
   text-align: left;
   border-bottom: 1px solid #e0e0e0;
+  color: var(--text);
 }
 
 .table th {
   font-weight: 600;
   font-size: 14px;
-  color: rgb(163 174 208);
+  color: var(--text);
 }
 
 .icons span {
   margin-right: 8px;
   font-size: 18px;
-  color: rgb(163 174 208);
+  color: var(--text);
 }

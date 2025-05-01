@@ -1,11 +1,15 @@
 .nft-card {
-  background: #fff;
+  background: var(--container);
   border-radius: 20px;
   box-shadow: 0 6px 32px rgba(44, 62, 80, 0.08);
   overflow: hidden;
   font-family: "Inter", sans-serif;
   position: relative;
   padding-bottom: 20px;
+}
+
+.container-fluid h2 {
+  color: #fff;
 }
 
 .nft-card-image-section {
@@ -23,7 +27,7 @@
   position: absolute;
   top: 25px;
   right: 25px;
-  background: rgba(255, 255, 255, 0.3);
+  background: #fff;
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -42,7 +46,7 @@
 .nft-card-title {
   font-size: 1.15rem;
   font-weight: 700;
-  color: #222;
+  color: var(--text);
   margin-bottom: 4px;
 }
 
@@ -62,7 +66,7 @@
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid var();
   object-fit: cover;
   margin-left: -8px;
   box-shadow: 0 2px 6px rgba(44, 62, 80, 0.12);
@@ -79,7 +83,7 @@
   color: #8a8a8a;
   background: #f2f2f2;
   border-radius: 12px;
-  padding: 2px 8px;
+  padding: 2px 5px;
 }
 
 .nft-card-footer {
@@ -90,7 +94,7 @@
 
 .nft-card-bid-label {
   font-size: 0.95rem;
-  color: #8a8a8a;
+  color: var(--text);
   margin-right: 4px;
 }
 
@@ -102,7 +106,7 @@
 }
 
 .nft-card-bid-btn {
-  background: #2d2dff;
+  background: var(--checkbox);
   color: #fff;
   border: none;
   border-radius: 20px;

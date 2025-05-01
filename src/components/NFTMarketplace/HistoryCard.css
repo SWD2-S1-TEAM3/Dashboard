@@ -1,5 +1,5 @@
 .history-card {
-  background: #fff;
+  background: var(--container);
   border-radius: 18px;
   box-shadow: 0 4px 24px 0 rgba(44, 62, 80, 0.08);
   padding: 24px 0 18px 0;
@@ -18,15 +18,16 @@
 .history-title {
   font-size: 1.15rem;
   font-weight: 600;
-  color: #222;
+  color: var(--text);
 }
 
 .history-seeall {
-  color: #6c63ff;
+  color: var(--text);
   font-size: 0.98rem;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
+  background-color: var(--icon-container);
 }
 
 .history-seeall:hover {
@@ -62,7 +63,7 @@
   border-radius: 12px;
   object-fit: cover;
   margin-right: 16px;
-  background: #f3f3f3;
+  background: var(--container);
 }
 
 .history-info {
@@ -74,7 +75,7 @@
 .history-item-title {
   font-size: 1.01rem;
   font-weight: 600;
-  color: #222;
+  color: var(--text);
   margin-bottom: 2px;
   line-height: 1.2;
 }
@@ -94,7 +95,7 @@
 }
 
 .history-eth {
-  color: #222;
+  color: var(--text);
   font-weight: 500;
   font-size: 0.98rem;
   display: flex;

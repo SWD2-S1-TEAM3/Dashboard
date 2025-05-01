@@ -4,10 +4,14 @@ import "./ProfileCard.css";
 
 function ProfileCard() {
   return (
-<div className="profile-card">
-      <div className="profile-card__header-gradient"></div>
+    <div className="profile-card">
+      <div className="profile-card__header-gradient rounded rounded-3"></div>
       <div className="profile-card__avatar-wrapper">
-        <img src={avatar} alt="Adela Parkson" className="profile-card__avatar" />
+        <img
+          src={avatar}
+          alt="Adela Parkson"
+          className="profile-card__avatar"
+        />
       </div>
       <div className="profile-card__content">
         <h2 className="profile-card__name">Adela Parkson</h2>

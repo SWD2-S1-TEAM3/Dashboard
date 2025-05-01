@@ -1,5 +1,5 @@
 .projects-container {
-  background-color: white;
+  background: var(--container);
   border-radius: 12px;
   padding: 24px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
@@ -9,16 +9,16 @@
   height: 100%;
 }
 
-.projects-heading {
+.projects-container .projects-heading {
   font-size: 20px;
   font-weight: 600;
-  color: #111827;
+  color: var(--text);
   margin: 0 0 8px 0;
 }
 
 .projects-description {
   font-size: 14px;
-  color: #6b7280;
+  color: var(--secondery-text);
   margin: 0 0 24px 0;
   line-height: 1.5;
 }
@@ -36,6 +36,7 @@
   border-radius: 8px;
   transition: background-color 0.2s;
   position: relative;
+  background-color: var(--icon-container);
 }
 
 .project-card:hover {
@@ -64,7 +65,7 @@
 .project-title {
   font-size: 16px;
   font-weight: 500;
-  color: #111827;
+  color: var(--text);
   margin: 0 0 4px 0;
 }
 

@@ -97,7 +97,7 @@ function TopCreatorsCard() {
         <span className="top-creators-title">Top Creators</span>
         <Link
           href="#"
-          className="top-creators-seeall bg-light rounded rounded-5 px-3 py-2 text-decoration-none"
+          className="top-creators-seeall rounded rounded-5 px-3 py-2 text-decoration-none"
         >
           See all
         </Link>

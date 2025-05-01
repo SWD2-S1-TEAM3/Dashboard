@@ -8,7 +8,7 @@ import NotificationsCard from "./NotificationsCard";
 
 function Profile() {
   return (
-    <>
+    <div className="Profile">
       <div className="container-fluid">
         <div className="row my-3">
           <div className="col-4">
@@ -33,7 +33,7 @@ function Profile() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

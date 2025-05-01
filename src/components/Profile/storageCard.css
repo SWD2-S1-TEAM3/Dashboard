@@ -1,5 +1,5 @@
 .storage-card {
-  background-color: white;
+  background-color: var(--container);
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   width: 100%;
@@ -15,10 +15,10 @@
   margin-bottom: 16px;
 }
 
-.icon-container {
+.storage-card .icon-container {
   width: 7rem;
   height: 7rem;
-  background-color: #f1f5f9;
+  background-color: var(--icon-container);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -32,17 +32,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--icon);
 }
-
-/* .fa-cloud-arrow-up {
-  width: 7rem;
-  height: 7rem;
-} */
 
 .more-button {
   background: none;
   border: none;
-  color: #422afb;
+  color: var(--icon);
   font-size: 20px;
   cursor: pointer;
   padding: 8px;
@@ -52,16 +48,16 @@
   text-align: left;
 }
 
-.title {
+.card-content .title {
   font-size: 20px;
   font-weight: 600;
-  color: #1e293b;
+  color: var(--text);
   margin: 0 0 8px 0;
 }
 
-.subtitle {
+.card-content .subtitle {
   font-size: 14px;
-  color: #94a3b8;
+  color: var(--text);
   margin: 0 0 24px 0;
 }
 
@@ -69,22 +65,24 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 8px;
+  align-items: end;
+  margin-top: 5rem;
 }
 
 .used-storage {
   font-size: 14px;
   font-weight: 500;
-  color: #1e293b;
+  color: var(--secondery-text);
 }
 
 .total-storage {
   font-size: 14px;
-  color: #94a3b8;
+  color: var(--secondery-text);
 }
 
 .progress-container {
   height: 8px;
-  background-color: #e2e8f0;
+  background-color: var(--chechbox);
   border-radius: 4px;
   overflow: hidden;
 }

@@ -58,7 +58,7 @@ function DataTables() {
   };
 
   return (
-    <>
+    <div className="DataTables">
       <div className={styles.container}>
         {/* Row 1 */}
         <div className={styles.row}>
@@ -185,7 +185,7 @@ function DataTables() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

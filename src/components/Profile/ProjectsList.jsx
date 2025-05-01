@@ -27,7 +27,7 @@ function ProjectsList() {
   ];
 
   return (
-    <div className="projects-container ">
+    <div className="projects-container">
       <h2 className="projects-heading">All projects</h2>
       <p className="projects-description">
         Here you can find more details about your projects. Keep you user

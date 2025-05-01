@@ -6,8 +6,9 @@ import TopCreatorsCard from "./TopCreatorsCard";
 import HistoryCard from "./HistoryCard";
 
 function NFTMarketplace() {
+  
   return (
-    <>
+    <div className="NFTMarketplace">
       <div className="container-fluid">
         <div className="row w">
           <div className="col-8">
@@ -21,7 +22,7 @@ function NFTMarketplace() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

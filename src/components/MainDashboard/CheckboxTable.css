@@ -1,5 +1,4 @@
 .table-container {
-  background: #fff;
   border-radius: 1rem;
   padding: 1rem;
   box-shadow: 0 2px 12px rgba(27, 37, 75, 0.04);
@@ -40,15 +39,15 @@ input[type="checkbox"] {
   height: 16px;
   border: 1px solid #bfc8e7;
   border-radius: 3px;
-  background-color: #fff;
+  background-color: var(--container);
   cursor: pointer;
   position: relative;
   transition: all 0.2s ease-in-out;
 }
 
 input[type="checkbox"]:checked {
-  background-color: #422afb;
-  border-color: #422afb;
+  background-color: var(--checkbox);
+  border-color: var(--checkbox);
 }
 
 input[type="checkbox"]:focus {
