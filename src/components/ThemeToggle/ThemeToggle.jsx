@@ -16,7 +16,6 @@ export default function ThemeToggle() {
       <button onClick={() => setDarkMode((prev) => !prev)}>
         Switch to {darkMode ? "Light" : "Dark"} Mode
       </button>
-      <h1>Hello, React Vite!</h1>
     </div>
   );
 }

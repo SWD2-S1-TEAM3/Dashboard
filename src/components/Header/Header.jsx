@@ -56,7 +56,7 @@ function Header() {
               onClick={() => setDarkMode((prev) => !prev)}
             >
               {darkMode ? (
-                <i class="fa-solid fa-sun"></i>
+                <i className="fa-solid fa-sun"></i>
               ) : (
                 <i className="fa fa-moon"></i>
               )}

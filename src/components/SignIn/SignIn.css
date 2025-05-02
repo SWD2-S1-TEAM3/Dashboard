@@ -1,0 +1,80 @@
+.SignIn {
+  background-color: var(--body-bg);
+}
+
+.footercolor {
+  color: var(--text);
+}
+
+.spacer {
+  height: 150px;
+}
+
+.signBtn {
+  background-color: var(--contaier) !important;
+  color: var(--text) !important;
+}
+
+.signBtn:hover {
+  background-color: var(--icon) !important;
+  color: var(--container) !important;
+}
+
+form .form-control {
+  background-color: var(--container);
+  color: var(--text) !important;
+}
+
+form .form-control::placeholder {
+  color: var(--secondery-text);
+  opacity: 0.7;
+}
+
+.fontlabel {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.forgotPassword {
+  color: var(--icon) !important;
+  text-decoration: none;
+}
+.signInButton {
+  background-color: var(--checkbox) !important;
+  color: #fff !important;
+  transition: background-color 0.3s !important;
+}
+.signInButton:hover {
+  background-color: #2200aa !important;
+  color: white !important;
+}
+.fontsizesign {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.image {
+  background: url(../../assets/images/logo.jpg) no-repeat center center/cover;
+  border-bottom-left-radius: 20%;
+}
+.links {
+  margin-left: 150px;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+.darkmode {
+  bottom: 20px;
+  right: 20px;
+  z-index: 1050;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#6d61ff, #323fff);
+}
+
+ul li {
+  font-size: 1.2rem;
+}
