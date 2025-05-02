@@ -2,7 +2,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  background-color: #f8f9fa;
+  background-color: var(--container);
   width: 230px;
   height: 100vh;
   display: flex;
@@ -17,7 +17,7 @@
 }
 
 .sidebar-logo-link {
-  color: #1b254b;
+  color: var(--text);
   font-size: 1.6rem;
   font-weight: bold;
   text-decoration: none;
@@ -34,7 +34,7 @@
   display: flex;
   align-items: center;
   padding: 0.75rem 2rem;
-  color: #a3aed0;
+  color: var(--secondery-text);
   text-decoration: none;
   font-size: 1.05rem;
   border-radius: 6px;
@@ -56,17 +56,17 @@
 
 .sidebar-link:hover,
 .sidebar-link.active {
-  color: #1b254b;
+  color: var(--text);
 }
 
 .sidebar-link:hover .sidebar-text,
 .sidebar-link.active .sidebar-text {
-  color: #1b254b;
+  color: var(--text);
 }
 
 .sidebar-link:hover .sidebar-icon,
 .sidebar-link.active .sidebar-icon {
-  color: #422afb;
+  color: var(--icon);
 }
 
 .sidebar-link:focus {

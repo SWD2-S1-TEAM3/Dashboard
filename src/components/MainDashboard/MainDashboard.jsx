@@ -10,8 +10,10 @@ import TaskList from "./TaskList";
 import EarningsCard from "./EarningsCard";
 
 function MainDashboard() {
+
+  
   return (
-    <div className="body">
+    <div className="MainDashboard">
       <EarningsCard />
       <div className="container-fluid">
         <div className="row">

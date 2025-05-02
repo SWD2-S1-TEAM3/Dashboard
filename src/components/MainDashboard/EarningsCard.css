@@ -1,5 +1,4 @@
 .earnings-card {
-  background: #fff;
   border-radius: 1rem;
   padding: 1.5rem;
   display: flex;
@@ -11,7 +10,7 @@
 }
 
 .icon-container {
-  background: #f4f7fe;
+  background: var(--icon-container);
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -36,5 +35,5 @@
 .earnings-value {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #1b254b;
+  color: var(--text);
 }

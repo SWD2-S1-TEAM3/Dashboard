@@ -9,7 +9,37 @@
 .Chart,
 .SimpleBarChart,
 .TaskList,
-.BasicDateCalendar {
-  background-color: #fff;
+.BasicDateCalendar,
+.CheckboxTable,
+.earnings-card {
+  background-color: var(--container);
+  color: var(--text);
   border-radius: 1rem;
+}
+
+.MainDashboard,
+.NFTMarketplace,
+.Profile,
+.DataTables {
+  background-color: var(--bg);
+}
+
+:root {
+  --body-bg: #f8f9fa;
+  --container: #fff;
+  --text: #111;
+  --secondery-text: #a3aed0;
+  --icon: #422afb;
+  --icon-container: #f4f7fe;
+  --checkbox: #422afb;
+}
+
+.dark {
+  --body-bg: #0b1437;
+  --container: #111c44;
+  --text: #fff;
+  --secondery-text: #a3aed0;
+  --icon: #fff;
+  --icon-container: #1b254b;
+  --checkbox: #7551ff;
 }

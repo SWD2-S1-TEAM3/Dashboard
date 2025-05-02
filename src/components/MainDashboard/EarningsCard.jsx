@@ -3,7 +3,7 @@ import "./EarningsCard.css";
 
 function EarningsCard() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid EarningsCard">
       <div className="row">
         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">

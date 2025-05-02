@@ -1,0 +1,7 @@
+.container-fluid {
+  color: var(--secondery-text);
+}
+
+.container-fluid .btn {
+  color: var(--secondery-text);
+}

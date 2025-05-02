@@ -1,0 +1,95 @@
+.storage-card {
+  background-color: var(--container);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  padding: 24px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  height: 100%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.storage-card .icon-container {
+  width: 7rem;
+  height: 7rem;
+  background-color: var(--icon-container);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.cloud-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--icon);
+}
+
+.more-button {
+  background: none;
+  border: none;
+  color: var(--icon);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.card-content {
+  text-align: left;
+}
+
+.card-content .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 8px 0;
+}
+
+.card-content .subtitle {
+  font-size: 14px;
+  color: var(--text);
+  margin: 0 0 24px 0;
+}
+
+.storage-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  align-items: end;
+  margin-top: 5rem;
+}
+
+.used-storage {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--secondery-text);
+}
+
+.total-storage {
+  font-size: 14px;
+  color: var(--secondery-text);
+}
+
+.progress-container {
+  height: 8px;
+  background-color: var(--chechbox);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(to right, #6366f1, #8b5cf6);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}

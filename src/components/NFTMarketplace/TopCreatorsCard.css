@@ -1,0 +1,116 @@
+.top-creators-card {
+  background: var(--container);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 rgba(44, 62, 80, 0.08);
+  padding: 24px 0 24px 0;
+  width: 420px;
+  max-width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.top-creators-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28px 18px 28px;
+}
+
+.top-creators-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.top-creators-seeall {
+  color: var(--text);
+  font-size: 0.98rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  background-color: var(--icon-container);
+}
+
+.top-creators-table-wrapper {
+  background-color: var(--container);
+  border-radius: 14px;
+  margin: 0 18px;
+  padding: 10px 0 10px 0;
+  overflow-x: auto;
+}
+
+.top-creators-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+  background-color: var(--container);
+}
+
+.top-creators-table th,
+.top-creators-table td {
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.98rem;
+  color: var(--text);
+}
+
+.top-creators-table th {
+  color: var(--text);
+  font-weight: 600;
+  background: none;
+  border-bottom: 1px solid #eaeaea;
+  letter-spacing: 1px;
+}
+
+.top-creators-table tbody tr {
+  transition: background 0.2s;
+  border-radius: 8px;
+  color: var(--text);
+}
+
+.top-creators-table tbody tr:hover {
+  background: #f5f7fa;
+}
+
+.creator-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.top-creators-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--container);
+  background-color: var(--container);
+}
+
+.top-creators-name {
+  font-size: 1rem;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.top-creators-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 20px;
+}
+
+.top-creators-table th.sortable:hover,
+.top-creators-table th.sortable:focus {
+  color: #4f2ffb;
+  outline: none;
+}
+
+.top-creators-table th.sortable::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  font-size: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
