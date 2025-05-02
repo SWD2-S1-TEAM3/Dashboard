@@ -13,7 +13,7 @@ function TrendingNFTs() {
       <div className="container-fluid">
         <h2>Trending NFTs</h2>
         <div className="row">
-          <div className="col-4">
+          <div className="col-lg-4 col-sm-12 my-2">
             <div className="nft-card">
               <div className="nft-card-image-section p-3">
                 <img
@@ -22,7 +22,7 @@ function TrendingNFTs() {
                   className="nft-card-image rounded rounded-3"
                 />
                 <button className="nft-card-like">
-                  <i class="fa-regular fa-heart"></i>
+                  <i className="fa-regular fa-heart"></i>
                 </button>
               </div>
               <div className="nft-card-body">
@@ -59,7 +59,7 @@ function TrendingNFTs() {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-sm-12 my-2">
             <div className="nft-card">
               <div className="nft-card-image-section p-3">
                 <img
@@ -68,7 +68,7 @@ function TrendingNFTs() {
                   className="nft-card-image rounded rounded-3"
                 />
                 <button className="nft-card-like">
-                  <i class="fa-regular fa-heart"></i>
+                  <i className="fa-regular fa-heart"></i>
                 </button>
               </div>
               <div className="nft-card-body">
@@ -105,7 +105,7 @@ function TrendingNFTs() {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-sm-12 my-2">
             <div className="nft-card">
               <div className="nft-card-image-section p-3">
                 <img
@@ -114,7 +114,7 @@ function TrendingNFTs() {
                   className="nft-card-image rounded rounded-3"
                 />
                 <button className="nft-card-like">
-                  <i class="fa-regular fa-heart"></i>
+                  <i className="fa-regular fa-heart"></i>
                 </button>
               </div>
               <div className="nft-card-body">

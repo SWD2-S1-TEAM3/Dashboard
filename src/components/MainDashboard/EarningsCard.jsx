@@ -5,7 +5,7 @@ function EarningsCard() {
   return (
     <div className="container-fluid EarningsCard">
       <div className="row">
-        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
+        <div className="col-xl-2 col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
               <i className="fa-solid fa-chart-simple"></i>
@@ -16,7 +16,7 @@ function EarningsCard() {
             </div>
           </div>
         </div>
-        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
+        <div className="col-xl-2  col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
               <i className="fa-solid fa-file"></i>
@@ -27,7 +27,7 @@ function EarningsCard() {
             </div>
           </div>
         </div>
-        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
+        <div className="col-xl-2  col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
               <i className="fa-solid fa-chart-simple"></i>
@@ -38,7 +38,7 @@ function EarningsCard() {
             </div>
           </div>
         </div>
-        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
+        <div className="col-xl-2  col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
               <i className="fa-solid fa-chart-column"></i>
@@ -49,7 +49,7 @@ function EarningsCard() {
             </div>
           </div>
         </div>
-        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
+        <div className="col-xl-2  col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
               <i className="fa-solid fa-chart-simple"></i>
@@ -60,7 +60,7 @@ function EarningsCard() {
             </div>
           </div>
         </div>
-        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 my-2">
+        <div className="col-xl-2  col-md-4 col-sm-12 my-2">
           <div className="earnings-card">
             <div className="icon-container">
               <i className="fa-solid fa-house"></i>
