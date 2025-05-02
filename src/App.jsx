@@ -19,10 +19,10 @@ function App() {
         { path: "MainDashboard", element: <MainDashboard /> },
         { path: "NFTMarketplace", element: <NFTMarketplace /> },
         { path: "Profile", element: <Profile /> },
-        { path: "SignIn", element: <SignIn /> },
         { path: "*", element: <Notfound /> },
       ],
     },
+    { path: "SignIn", element: <SignIn /> },
   ]);
 
   return (
