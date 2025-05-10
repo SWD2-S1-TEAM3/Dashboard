@@ -14,6 +14,7 @@ const notificationsList = [
 ];
 
 function NotificationsCard() {
+  
   const [toggles, setToggles] = useState(
     Array(notificationsList.length).fill(false)
   );

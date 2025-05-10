@@ -10,7 +10,7 @@ import avatar5 from "./../../assets/avatar5.png";
 function RecentlyAdded() {
   return (
     <>
-      <div className="container-fluid my-3">
+      <div className="container-fluid my-3 RecentlyAdded">
         <h2>Recently Added</h2>
         <div className="row">
           <div className="col-lg-4 col-sm-12 my-2">

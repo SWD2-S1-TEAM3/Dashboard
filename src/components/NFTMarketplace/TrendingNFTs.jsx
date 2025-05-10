@@ -10,7 +10,7 @@ import avatar5 from "./../../assets/avatar5.png";
 function TrendingNFTs() {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid TrendingNFTs">
         <h2>Trending NFTs</h2>
         <div className="row">
           <div className="col-lg-4 col-sm-12 my-2">

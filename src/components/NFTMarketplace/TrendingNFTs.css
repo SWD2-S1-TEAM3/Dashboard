@@ -121,3 +121,8 @@
 .nft-card-bid-btn:hover {
   background: #6c63ff;
 }
+
+.RecentlyAdded h2,
+.TrendingNFTs h2 {
+  color: var(--text);
+}

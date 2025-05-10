@@ -23,7 +23,6 @@ function Header() {
   }
 
   const [darkMode, setDarkMode] = useState(() => {
-    // Check localStorage for theme preference
     return localStorage.getItem("theme") === "dark";
   });
 
