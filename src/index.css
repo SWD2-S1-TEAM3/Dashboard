@@ -21,7 +21,7 @@
 .NFTMarketplace,
 .Profile,
 .DataTables {
-  background-color: var(--bg);
+  background-color: var(--body-bg);
 }
 
 :root {
