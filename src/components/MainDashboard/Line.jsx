@@ -17,11 +17,31 @@ function Line() {
 
   return (
     <div className="Line my-3">
+      <div className="p-4">
+        <h2>$37.5K</h2>
+        <p>Total Spent</p>
+        <span className="text-success">
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            className="font-medium text-success"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path fill="none" d="M0 0h24v24H0z"></path>
+            <path d="M7 14l5-5 5 5z"></path>
+          </svg>
+          +2.45%
+        </span>
+      </div>
       <LineChart
         height={300}
         series={[
-          { data: pData, label: "blue", color: "#4318FF" },
-          { data: uData, label: "Cyan", color: "#6AD2FF" },
+          { data: pData, label: "Revenue", color: "#4318FF" },
+          { data: uData, label: "Profit", color: "#6AD2FF" },
         ]}
         xAxis={[{ scaleType: "point", data: xLabels }]}
         yAxis={[{ width: 50 }]}

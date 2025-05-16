@@ -74,8 +74,8 @@ function TrendingNFTs() {
               <div className="nft-card-body">
                 <div className="d-flex justify-content-between">
                   <div>
-                    <div className="nft-card-title">Abstract Colors</div>
-                    <div className="nft-card-author">By Esthera Jackson</div>
+                    <div className="nft-card-title">ETH AI Brain</div>
+                    <div className="nft-card-author">By Nick Wilson</div>
                   </div>
                   <div className="nft-card-avatars">
                     <img
@@ -98,7 +98,7 @@ function TrendingNFTs() {
                 </div>
                 <div className="nft-card-footer d-flex justify-content-between">
                   <span className="nft-card-bid-label">
-                    Current Bid:0.91 ETH
+                    Current Bid: 0.7 ETH
                   </span>
                   <button className="nft-card-bid-btn">Place Bid</button>
                 </div>
@@ -120,8 +120,8 @@ function TrendingNFTs() {
               <div className="nft-card-body">
                 <div className="d-flex justify-content-between">
                   <div>
-                    <div className="nft-card-title">Abstract Colors</div>
-                    <div className="nft-card-author">By Esthera Jackson</div>
+                    <div className="nft-card-title">Mesh Gradients</div>
+                    <div className="nft-card-author">By Will Smith</div>
                   </div>
                   <div className="nft-card-avatars">
                     <img
@@ -144,7 +144,7 @@ function TrendingNFTs() {
                 </div>
                 <div className="nft-card-footer d-flex justify-content-between">
                   <span className="nft-card-bid-label">
-                    Current Bid:0.91 ETH
+                    Current Bid: 2.91 ETH
                   </span>
                   <button className="nft-card-bid-btn">Place Bid</button>
                 </div>

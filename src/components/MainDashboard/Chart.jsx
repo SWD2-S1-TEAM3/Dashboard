@@ -1,5 +1,5 @@
 import * as React from "react";
-import { pieArcLabelClasses, PieChart } from "@mui/x-charts/PieChart";
+import { PieChart } from "@mui/x-charts/PieChart";
 
 const data = [
   { id: 0, value: 12, label: "series A", color: "#EFF4FB" },
@@ -18,41 +18,7 @@ export default function Chart() {
           <option value="Weekly">Weekly</option>
         </select>
       </div>
-      <PieChart
-        series={[{ data }]}
-        width={200}
-        height={200}
-        hideLegend
-        sx={{
-          [`& .${pieArcLabelClasses.root}`]: {
-            filter: "drop-shadow(1px 1px 2px black)",
-            animationName: "animate-pie-arc-label",
-            animationTimingFunction: "linear",
-            animationIterationCount: "infinite",
-            animationDirection: "alternate",
-            "@keyframes animate-pie-arc-label": {
-              "0%": { fill: "red" },
-              "33%": { fill: "orange" },
-              "66%": { fill: "violet" },
-              "100%": { fill: "red" },
-            },
-          },
-          [`& .${pieArcLabelClasses.root}.${pieArcLabelClasses.animate}`]: {
-            animationDuration: "5s",
-          },
-        }}
-      />
-      {/* <div className="d-flex flex-row justify-content-between">
-        <div>
-          <p>Your Files</p>
-          <p>63%</p>
-        </div>
-        <div>
-          <p>System</p>
-          <p>25%</p>
-        </div>
-        <div></div>
-      </div> */}
+      <PieChart series={[{ data }]} width={200} height={200} hideLegend />
     </div>
   );
 }

@@ -32,6 +32,7 @@
   --icon: #422afb;
   --icon-container: #f4f7fe;
   --checkbox: #422afb;
+  --Notification: #ffffff;
 }
 
 .dark {
@@ -42,4 +43,5 @@
   --icon: #fff;
   --icon-container: #1b254b;
   --checkbox: #7551ff;
+  --Notification: #1b254b;
 }

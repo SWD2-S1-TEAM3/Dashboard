@@ -59,6 +59,15 @@ function CheckboxTable() {
               </td>
               <td>Venus 3D Asset</td>
               <td>100%</td>
+              <td>858</td>
+              <td>Oct 24, 2022</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" />
+              </td>
+              <td>Venus 3D Asset</td>
+              <td>100%</td>
               <td>258</td>
               <td>Nov 29, 2022</td>
             </tr>

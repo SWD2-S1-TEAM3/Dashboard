@@ -1,0 +1,23 @@
+.StackedBarChart h2 {
+  color: var(--text);
+}
+
+.StackedBarChart .space {
+  height: 60px;
+}
+
+.BasicDateCalendar {
+  color: var(--text);
+}
+
+.Line h2 {
+  color: var(--text);
+}
+
+.SimpleBarChart h4 {
+  color: var(--secondery-text);
+}
+
+.SimpleBarChart h2 {
+  color: var(--text);
+}

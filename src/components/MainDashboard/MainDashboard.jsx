@@ -10,8 +10,6 @@ import TaskList from "./TaskList";
 import EarningsCard from "./EarningsCard";
 
 function MainDashboard() {
-
-  
   return (
     <div className="MainDashboard">
       <EarningsCard />

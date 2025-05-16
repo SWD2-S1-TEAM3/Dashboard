@@ -2,6 +2,8 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import "./Header.css";
 import { useState, useEffect } from "react";
+import Notification from "./Notification";
+import ProfileDropdown from "./ProfileDropdown";
 
 function Header() {
   const location = useLocation();
@@ -48,7 +50,7 @@ function Header() {
             />
           </div>
           <div className="topbar-actions">
-            <i className="fa fa-bell"></i>
+            <Notification />
             <i className="fa fa-info-circle"></i>
             <button
               className="btn"
@@ -60,11 +62,7 @@ function Header() {
                 <i className="fa fa-moon"></i>
               )}
             </button>
-            <img
-              className="profile-img"
-              src="https://randomuser.me/api/portraits/men/32.jpg"
-              alt="Profile"
-            />
+            <ProfileDropdown />
           </div>
         </div>
       </div>

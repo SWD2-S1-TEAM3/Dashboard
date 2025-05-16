@@ -8,19 +8,21 @@ const xLabels = ["A", "B", "C", "D", "E", "F", "G"];
 export default function StackedBarChart() {
   return (
     <div className="StackedBarChart my-3">
+      <h2 className="p-4">Weekly Revenue</h2>
+      <div className="space"></div>
       <BarChart
         height={300}
         series={[
           {
             data: pData,
-            label: "Cyan",
+            label: "product A",
             id: "pvId",
             stack: "total",
             color: "#6AD2FF",
           },
           {
             data: uData,
-            label: "Blue",
+            label: "product B",
             id: "uvId",
             stack: "total",
             color: "#4318FF",
